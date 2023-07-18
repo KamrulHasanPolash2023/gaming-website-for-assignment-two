@@ -3,3 +3,70 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+/*Nav section starts here*/
+
+.navigationbar{
+    background-color: rgba(236, 236, 236, 0.478);
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.logo-name{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+nav div p{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.logo-g{
+    font-size: 3rem;
+    font-weight: 700;
+    color:#fa3c9e;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: right;
+}
+.menues ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.menues >ul li{
+    list-style: none;
+}
+.menues ul li a{
+    text-decoration: none;
+}
+
+.follow-menues{
+    display: flex;
+    border: 1px solid gray;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 1px 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    gap:20px;
+}
+.followus{
+    font-size: 14px;
+    gap:100px;
+}
+.fa-brands{
+    font-size: 22px;
+}
+/*Nav section end here*/
