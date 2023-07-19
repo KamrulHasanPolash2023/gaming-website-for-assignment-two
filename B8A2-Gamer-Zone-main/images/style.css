@@ -5,29 +5,44 @@
 }
 
 /*Nav section starts here*/
-
-.navigationbar{
-    background-color: rgba(236, 236, 236, 0.478);
-}
 .navbar{
-    height: 80px;
-    display: flex;
+    height: 120px;
     margin-left: 120px;
     margin-right: 120px;
-    justify-content: center;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-.logo-name{
-    width: 50%;
+    text-align: center;
     display: flex;
     align-items: center;
-    gap:10px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+
 }
-nav div p{
-    font-size: 3rem;
+
+.logo-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-g{
+    font-size: 45px;
+    color: coral;
+
+}
+
+.logo-rest{
+    font-size: 45px;
     font-weight: 700;
 }
+
+.menu-holders{
+    display: flex;
+    gap: 30px;
+
+}
+
 .logo-g{
     font-size: 3rem;
     font-weight: 700;
@@ -69,4 +84,136 @@ nav div p{
 .fa-brands{
     font-size: 22px;
 }
-/*Nav section end here*/
+/*Nav section Ends here*/
+
+/*banner saction Start*/
+.banner-holder{
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannser-text-holder{
+text-align: center;
+justify-content: center; 
+align-items: center;
+}
+
+/*banner saction end*/
+
+
+/*online saction end*/
+
+.online-games-header{
+margin-top: 100px;
+text-align: center;
+}
+.cards-holder{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/*online saction end*/
+
+/*main banner saction start*/
+.main-banner-text{
+    text-align: right;
+}
+.banner-paragraph{
+font-size: 16px;
+font-weight: normal;
+
+}
+
+.main-baner-holder{
+    height: 600px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    gap:150px;
+
+}
+.main-banner-text{
+    text-align: center;
+}
+.banner-stiker-img{
+    border: 10px solid white;
+    text-align: center;
+    margin-top: -300px;
+}
+/*main banner saction end*/
+
+
+
+/*hober butoon starts*/
+.icon-hober-holder > div{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display:flex;
+    gap: 50px;
+    
+}
+
+.icon-hober-holder{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+
+/*hober butoon starts*/
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: none;
+    
+}
+.banner-holder{
+    margin-top: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.bannser-text-holder{
+    justify-content: center; 
+    align-items: center;
+    margin: 0px;
+    border: none;
+}
+.online-games-header{
+    margin-top: 190px;
+    text-align: center;
+}
+
+.cards-holder{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin-top: 50px;
+}
+}
+
+

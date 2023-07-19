@@ -4,3 +4,17 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+    /*media section for mobile starts here*/
+
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    
+}
+.menu-holders{
+    flex-direction: column;
+}
+.menues ul{
+    flex-direction: column;
+}
+}
